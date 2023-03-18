@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the server 1");
+  res.send("Welcome to the server 2");
 });
 
 app.listen(8080, () => {
